@@ -1,8 +1,9 @@
 domainage
 =========
 
-Tools for web domain management and tracking.
+Tool(s) for web domain management and tracking.
 
-right now, it's just a whois lookup. next step is to store a pile of queries to somewhere useful.
+Right now, it's just a whois lookup; example: whois.py arogi.com
 
-examples: whois.py arogi.com
+Next step is to store a pile of whois results in a useful format and location -- so domains can be managed/tracked wrt expiration dates, registrar, registrant, etc.
+
