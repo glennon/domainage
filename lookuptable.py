@@ -1,4 +1,6 @@
 # a lookup table of whois servers
+# should investigate whether subdomains such as .co.uk have a different whois_server than .uk
+
 def whois_server_lookup(lookup_extension):
     serverlookup = {
 		'ac':'whois.nic.ac',
