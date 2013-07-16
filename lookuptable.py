@@ -1,5 +1,7 @@
 # a lookup table of whois servers
 # should investigate whether subdomains such as .co.uk have a different whois_server than .uk
+# my first impression is yes... so next, it's a matter of figuring out which ones are important.
+# then the main whois code needs to change its domain parsing method to handle the case.
 
 def whois_server_lookup(lookup_extension):
     serverlookup = {
