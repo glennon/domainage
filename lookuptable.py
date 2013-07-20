@@ -3,6 +3,9 @@
 # my first impression is yes... so next, it's a matter of figuring out which ones are important.
 # then the main whois code needs to change its domain parsing method to handle the case.
 
+# .com is wonkier than I first thought too. different servers have them... 
+# need to find the central server to query, acquire the sub whois server, and then query that.
+
 def whois_server_lookup(lookup_extension):
     serverlookup = {
 		'ac':'whois.nic.ac',
