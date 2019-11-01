@@ -1,6 +1,8 @@
 domainage
 =========
 
+(update: This repo is abandoned. I will remove this notice if I start working on this again.)
+
 Tool(s) for web domain management and tracking.
 
 Right now, it's just a whois lookup; example: whois.py arogi.com
